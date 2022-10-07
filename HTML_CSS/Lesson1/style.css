@@ -1,0 +1,70 @@
+p {
+    color: cadetblue
+}
+
+h1 {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    background-color: cadetblue;
+}
+
+.form-background {
+    background-color: rgb(226, 210, 225);
+}
+
+input[type="text"] {
+    color: darkmagenta;
+}
+
+textarea {
+    color: darkmagenta;
+}
+
+/* input[type="checkbox"] {
+    color: darkmagenta;
+}
+
+button[type="radio"] {
+    color: darkmagenta;
+} */
+
+.block {
+    width: 9%;
+    height: cover;
+    border: 1px solid #000;
+    /* background-color: cornsilk; */
+    background-image: url(img/bgi-block.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* for the whole site: */
+body {
+    font-family: sans-serif;
+}
+
+.text {
+    background-color: rgb(136, 8, 136);
+    font-family: serif;
+}
+
+.list {
+    list-style-type: none;
+}
