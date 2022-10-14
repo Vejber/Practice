@@ -85,3 +85,12 @@ body {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+.header {
+    /* background-color: rgb(179, 207, 208); */
+    background-image: url(img/bgi-block.jpeg);
+}
+
+.footer {
+    background-image: url(img/bgi-block.jpeg);
+}
