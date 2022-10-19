@@ -94,3 +94,7 @@ body {
 .footer {
     background-image: url(img/bgi-block.jpeg);
 }
+
+.text_red {
+    color: red;
+}
