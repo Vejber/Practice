@@ -57,7 +57,14 @@ button[type="radio"] {
     background-image: url(img/bgi-block.jpeg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
+
+.block:hover {
+    background-image: url(img/glitter-purple.gif);
+}
+
+/*fantastic  */
 
 /* for the whole site: */
 body {
@@ -93,8 +100,68 @@ body {
 
 .footer {
     background-image: url(img/bgi-block.jpeg);
+    overflow: hidden;
+    clear: both;
 }
 
 .text_red {
     color: red;
 }
+
+.product-block {
+    border: 1px solid #000;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.block-pets {
+    background-image: url(img/pets.webp);
+    border: 1px solid #000;
+    height: 1200px;
+    font-size: 250px;
+    text-align: center;
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+.up-button {
+    clear: both;
+    overflow: hidden;
+}
+
+.product_kind:hover {
+    color: blue;
+    background-color: rgba(255, 234, 116, 0.546);
+}
+
+/* .product_kind {
+    border-radius: 10px;
+} */
+
+.main-photo:hover {
+    background-image: url(img/cat-gif.gif);
+}
+
+.main-photo {
+    border: 1px solid #000;
+    width: 300px;
+    height: 270px;
+    background-image: url(img/photo1.png);
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
