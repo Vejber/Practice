@@ -48,9 +48,9 @@ textarea {
 button[type="radio"] {
     color: darkmagenta;
 } */
-
+/* for products: */
 .block {
-    width: 9%;
+    width: 10%;
     height: cover;
     border: 1px solid #000;
     /* background-color: cornsilk; */
@@ -58,6 +58,8 @@ button[type="radio"] {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    list-style-type: none;
+    /* box-sizing: border-box; */
 }
 
 .block:hover {
@@ -164,4 +166,19 @@ hr {
 /* img {
     max-width: 100%;
     height: auto;
+} */
+
+/* adding content with css: */
+
+.product_kind_new:hover::after {
+    content: ' NEW';
+    text-decoration: none;
+}
+
+.menu-list:before {
+    content: '☆';
+}
+
+/* .menu-list {
+    list-style-type: none;
 } */
