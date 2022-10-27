@@ -104,6 +104,7 @@ body {
     background-image: url(img/bgi-block.jpeg);
     overflow: hidden;
     clear: both;
+    color: rgb(202, 76, 233);
 }
 
 .text_red {
@@ -152,6 +153,12 @@ hr {
     border-radius: 10px;
 } */
 
+.main-info {
+    display: flex;
+    align-items: center;
+    /* border: 1 px, rgb(192, 22, 22); */
+}
+
 .main-photo:hover {
     background-image: url(img/cat-gif.gif);
 }
@@ -161,6 +168,23 @@ hr {
     width: 300px;
     height: 270px;
     background-image: url(img/photo1.png);
+    /* float: left;
+    overflow: hidden; */
+}
+
+.greeting {
+    border: 1px solid #000;
+    width: 78.6%;
+    height: 270px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(71, 120, 122);
+    /* float: left; */
+}
+
+
+.trash_info {
+    clear: both;
 }
 
 /* img {
@@ -208,4 +232,59 @@ table.iksweb th {
     background: #347c99;
     color: #fff;
     font-weight: normal;
+}
+
+.phone {
+    list-style-type: none;
+}
+
+.phone:before {
+    content: '☎';
+}
+
+.email {
+    list-style-type: none;
+}
+
+.email:before {
+    content: '✉';
+}
+
+.right-form {
+    float: left;
+    overflow: hidden;
+    background-color: rgb(226, 210, 225);
+    /* background-image: url(img/glitter-purple.gif); */
+    /* bgi */
+}
+
+.contact_img {
+    width: 250px;
+    height: 300px;
+    background-image: url(img/glitter-purple.gif);
+    border-radius: 10%;
+}
+
+.left-form {
+    background-color: rgb(226, 210, 225);
+    margin: 0px 0px;
+}
+
+.bgc {
+    width: cover;
+    height: 300px;
+    background-color: rgb(226, 210, 225);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trash_block {
+    width: 25%;
+    height: cover;
+    color: cadetblue;
+    border: 1px solid #000;
 }
