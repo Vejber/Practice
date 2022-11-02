@@ -1,0 +1,142 @@
+.content_1 {
+    position: relative;
+    /* background-image: url(img/Background\ image1.png);
+    /* background-image: max; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    width: 1920px; */
+    */
+}
+
+.img {
+    z-index: 0;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+}
+
+.logo {
+    width: 152px;
+    height: 100px;
+    background-image: url(img/Ellipse_1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 163px;
+    margin-top: 43px;
+}
+
+.logo_text {
+    position: absolute;
+    width: 136px;
+    height: 47px;
+    left: 200px;
+    top: 66px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.elements {
+    position: absolute;
+    width: 900px;
+    height: 48px;
+    left: 328px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    /* text-decoration: none; */
+}
+
+.info {
+    position: absolute;
+    width: 832px;
+    height: 155px;
+    /* left: 100px; */
+    top: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 165px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 130px;
+}
+
+.sub_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 265px;
+    height: 81px;
+    /* left: 411px; */
+    top: 200px;
+    background: #5E659D;
+    border-radius: 10px;
+    position: absolute;
+    /* width: 265px; */
+    /* height: 81px; */
+    /* left: 411px; */
+    /* top: 621px; */
+
+}
+
+.button_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 20%;
+}
+
+.elements_footer {
+    position: absolute;
+    width: 690px;
+    height: 30px;
+    left: 162px;
+    top: 800px;
+    /* bottom: 100px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
