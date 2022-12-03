@@ -1,3 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
 p {
     color: cadetblue;
     font-size: 16px;
@@ -5,29 +11,17 @@ p {
 
 }
 
-h1 {
+
+h1, h2, h3, h4 {
     color: white;
     background-color: cadetblue;
-    text-align: center;
+}
+
+h1 {
     font-size: 64px;
 }
 
-h2 {
-    color: white;
-    background-color: cadetblue;
-    text-align: center;
-}
 
-h3 {
-    color: white;
-    background-color: cadetblue;
-    text-align: center;
-}
-
-h4 {
-    color: white;
-    background-color: cadetblue;
-}
 
 .form-background {
     background-color: rgb(226, 210, 225);
@@ -41,13 +35,8 @@ textarea {
     color: darkmagenta;
 }
 
-/* input[type="checkbox"] {
-    color: darkmagenta;
-}
 
-button[type="radio"] {
-    color: darkmagenta;
-} */
+
 /* for products: */
 .block {
     width: 10%;
@@ -61,18 +50,15 @@ button[type="radio"] {
     list-style-type: none;
     /* box-sizing: border-box; */
 }
-
 .block:hover {
     background-image: url(img/glitter-purple.gif);
 }
 
+
+
 /*fantastic  */
 
 /* for the whole site: */
-body {
-    font-family: sans-serif;
-}
-
 .text {
     background-color: rgb(136, 8, 136);
     font-family: serif;
@@ -177,10 +163,6 @@ hr {
     background-color: rgba(255, 234, 116, 0.546);
 }
 
-/* .product_kind {
-    border-radius: 10px;
-} */
-
 .main-info {
     display: flex;
     align-items: center;
@@ -215,13 +197,9 @@ hr {
     clear: both;
 }
 
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
+
 
 /* adding content with css: */
-
 .product_kind_new:hover::after {
     content: ' NEW';
     text-decoration: none;
@@ -230,10 +208,6 @@ hr {
 .menu-list:before {
     content: '☆';
 }
-
-/* .menu-list {
-    list-style-type: none;
-} */
 
 table.iksweb {
     width: 100%;
@@ -265,7 +239,6 @@ table.iksweb th {
 .phone {
     list-style-type: none;
 }
-
 .phone:before {
     content: '☎';
 }
@@ -273,7 +246,6 @@ table.iksweb th {
 .email {
     list-style-type: none;
 }
-
 .email:before {
     content: '✉';
 }
